@@ -1,3 +1,5 @@
 for .env examples variables
 
-PORT = 4000
+PORT = 3000  ----> will set the PORT of your deployment
+
+allowedOrigins = http://localhost:3000                     ----> use comma to add more allowed DNS! ex: http://localhost:3000, https://deploymentDNS.app
