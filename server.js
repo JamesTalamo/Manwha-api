@@ -5,6 +5,7 @@ require('dotenv').config()
 app.use(express.json());
 app.use(express.static('public'))
 
+app.use(require('./config/cors.js'));
 
 app.use('/api', require('./Routes/Routes.js'))
 
